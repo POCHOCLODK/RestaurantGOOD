@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    padding: 20px 0 0 0;
+    background: url("../img/bg_food2.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav{
+    width: 67%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    text-shadow: 4px 4px 3px #000;
+    transition: .5s;
+}
+
+nav li a:hover{
+    border-bottom: 2px solid #ff00dd;
+    text-shadow: 4px 4px 3px #e100ff;
+    /* border-top: 5px solid #8400ff; */
+}
+
+#logo img{
+    height: 30vh;
+    transition: .5s;
+}
+
+#logo img:hover{
+    transform: scale(1.1);
+}
+
+#parte1{
+    width: 60%;
+    text-align: center;
+    /* background: red; */
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+#parte1 h2{
+    font-size: 85px;
+    color: rgba(174, 74, 255, 0.904);
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 4px 4px 3px #000;
+}
+
+#parte1 h1{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    /* poner un texto en mayusculas  text-transform: uppercase; */
+    margin-bottom: 90px;
+    text-shadow: 4px 4px 3px #000;
+
+}
+
+select{
+    font-size: 25px;
+    color: #fff;
+    background: transparent;
+    border: transparent;
+    font-weight: 400;
+    border-radius: 4px;
+    text-shadow: 4px 4px 3px #000;
+    transition: .5s;
+    cursor:pointer;
+}
+
+select:hover{
+    border-bottom: 2px solid #ff00dd;
+    text-shadow: 4px 4px 3px #e100ff;
+    /* border-top: 5px solid #8400ff; */
+}
+
+option.ps{
+    color: #000;
+    background-color: #e100ff2a;
+}
+
+/* ESTILOS DE POSTRES DULCES */
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+#cuerpo{
+    width: 100%;
+    background: url(../img/bg_ptdulces.jpg);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 150px;
+}
+
+#cuerpo h2{
+    font-size: 70px;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px 3px #8400ff;
+}
+
+#cuerpo p{
+    font-size: 30px;
+    /* text-shadow: 3px 3px 3px #8400ff; */
+}
+
+#cuerpo .valordl{
+    text-shadow: 3px 3px 3px #ff00dd;
+}
+
+#cuerpo .filas{
+    width: 80%;
+    margin: 5% auto;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 80px; */
+    border:15px solid #7700ff;
+    font-size: 20px;
+}
+
+#cuerpo .postresdl{
+    position: relative;
+}
+
+#cuerpo .bgdulces{
+    border: 10px solid #00000075;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+#cuerpo .bgdulces:hover{
+    transform: scale(0.9);
+}
+
+/* ESTILOS DE POSTRES ACIDOS */
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+#cuerpo2{
+    width: 100%;
+    background: url(../img/bg_ptacidos.jpg);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 150px;
+}
+
+#cuerpo2 h2{
+    font-size: 70px;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px 3px #00ff40;
+}
+
+#cuerpo2 p{
+    font-size: 30px;
+    /* text-shadow: 3px 3px 3px #8400ff; */
+}
+
+#cuerpo2 .filas{
+    width: 80%;
+    margin: 5% auto;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 80px; */
+    border:15px solid #3e7400;
+    font-size: 20px;
+}
+
+#cuerpo2 .valor{
+    text-shadow: 3px 3px 3px #00ff40;
+}
+
+#cuerpo2 .postresAC{
+    position: relative;
+}
+
+#cuerpo2 .bgdulces{
+    border: 10px solid #00000075;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+#cuerpo2 .bgdulces:hover{
+    transform: scale(0.9);
+}
+
+/* ESTILOS DE PLATOS FUERTES */
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+#cuerpo3{
+    width: 100%;
+    background: #ff7b00b0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 100px;
+    /* background-size: cover; */
+    padding-top: 150px;
+}
+
+#cuerpo3 h2{
+    font-size: 70px;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px 3px #e00;
+}
+
+#cuerpo3 p{
+    font-size: 30px;
+    /* text-shadow: 3px 3px 3px #8400ff; */
+}
+
+#cuerpo3 .filas{
+    width: 80%;
+    margin: 5% auto;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 80px; */
+    border:15px solid #ff6600;
+    font-size: 20px;
+}
+
+#platoa{
+    width: 80%;
+    margin: 5% auto;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 80px; */
+    /* border:15px solid #3e7400; */
+    font-size: 20px;
+}
+
+#cuerpo3 .valor{
+    text-shadow: 3px 3px 3px #e00;
+}
+
+#cuerpo3 .postresAC{
+    position: relative;
+}
+
+#cuerpo3 .bgdulces{
+    border: 10px solid #00000075;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+#cuerpo3 .bgdulces:hover{
+    transform: scale(0.9);
+}
+
+/* ESTILOS DE  BEBIDAS */
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+#cuerpo4{
+    width: 100%;
+    background: url(../img/bg_bebidas.jpg);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 150px;
+}
+
+#cuerpo4 h2{
+    font-size: 70px;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px 3px #ff00dd;
+}
+
+#cuerpo4 p{
+    font-size: 30px;
+    /* text-shadow: 3px 3px 3px #8400ff; */
+}
+
+#cuerpo4 .filas{
+    width: 80%;
+    margin: 5% auto;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 80px; */
+    border:15px solid #e100ff;
+    font-size: 20px;
+}
+
+#cuerpo4 .valordl{
+    text-shadow: 3px 3px 3px #ff00dd;
+}
+
+#cuerpo4 .postresAC{
+    position: relative;
+}
+
+#cuerpo4 .bgdulces{
+    border: 10px solid #00000075;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+#cuerpo4 .bgdulces:hover{
+    transform: scale(0.9);
+}
+
+footer{
+    padding: 30px;
+    background: #000;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 3px 3px 4px #7700ff;
+}

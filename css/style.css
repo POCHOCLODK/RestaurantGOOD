@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    padding: 100px 0 0 0;
+    text-align: center;
+    background: url("../img/bg_foods.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 3px 3px 3px #8400ff;
+    height: 100vh;
+}
+
+#logo img{
+    margin: 0 auto;
+    background-position: center;
+    height: 50vh;
+    transition: .5s;
+}
+
+#logo img:hover{
+    transform: scale(0.9);
+}
+
+div button{
+    background: #f8e1e1;
+    font-size: 30px;
+    padding: 12px 30px;
+    border-radius: 15px;
+    color: #000;
+    border-color: #000;
+    cursor: pointer;
+    transition: .5s;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+div button:hover{
+    transform: scale(0.9);
+    background: rgba(86, 0, 247, 0.212);
+}
